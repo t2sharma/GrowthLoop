@@ -20,7 +20,7 @@ export default function ContactPage() {
             </h3>
             <ol className="mt-2 list-decimal space-y-2 pl-5 text-slate-300">
               <li>Tell us a bit about your business and what&apos;s not working today.</li>
-              <li>We&apos;ll talk through ideas for your website, app, or automation9in plain language.</li>
+              <li>We&apos;ll talk through ideas for your website, app, or automation in plain language.</li>
               <li>If it feels like a fit, we&apos;ll outline a simple next step and timeline.</li>
             </ol>
             <div className="mt-4 flex flex-wrap items-center gap-2 text-xs text-slate-400 sm:text-sm">

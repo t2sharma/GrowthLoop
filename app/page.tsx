@@ -49,7 +49,7 @@ const services = [
 const pillars = [
   {
     title: "Professional Look",
-    body: "We design digital experiences that make your business feel bigger than it is—without losing the local touch.",
+    body: "We design digital experiences that make your business feel bigger than it is without losing the local touch.",
   },
   {
     title: "Automation That Cuts Costs",
@@ -212,7 +212,7 @@ export default function HomePage() {
             </h2>
             <p className="text-sm text-slate-300 sm:text-base">
               From your first professional website to custom tools that automate your
-              operations, we help you upgrade the parts of your business customers see—and
+              operations, we help you upgrade the parts of your business customers see and
               the parts they never do.
             </p>
           </div>
@@ -332,44 +332,9 @@ export default function HomePage() {
         </div>
       </Section>
 
-      {/* Testimonials & Final CTA */}
+      {/* Final CTA (testimonials temporarily removed) */}
       <Section className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 py-24 lg:py-32">
         <div className="flex flex-col gap-12">
-          <div className="space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-secondary">
-              Kind words
-            </p>
-            <h2 className="text-3xl font-semibold text-slate-50 sm:text-4xl">
-              Local businesses we’ve helped.
-            </h2>
-          </div>
-          <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-3 lg:gap-8">
-            {testimonials.map((item) => (
-              <motion.figure
-                key={item.name}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.35, ease: "easeOut" }}
-                className="flex h-full flex-col justify-between rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-sm text-slate-300 shadow-lg transition-transform transition-shadow duration-300 hover:-translate-y-1 hover:shadow-xl lg:p-7"
-              >
-                <div>
-                  <div className="mb-3 flex items-start justify-between">
-                    <span className="text-3xl leading-none text-primary">“</span>
-                    <span className="text-[10px] font-medium uppercase tracking-[0.2em] text-slate-500">
-                      Local story
-                    </span>
-                  </div>
-                  <p className="text-sm leading-relaxed text-slate-300">{item.quote}</p>
-                </div>
-                <div className="mt-4 border-t border-slate-800 pt-3">
-                  <p className="text-sm font-semibold text-slate-100">{item.name}</p>
-                  <p className="text-xs text-slate-400">{item.business}</p>
-                </div>
-              </motion.figure>
-            ))}
-          </div>
-
           {/* Integrated Final CTA */}
           <div
             id="contact-cta"
@@ -384,7 +349,7 @@ export default function HomePage() {
               </h3>
               <p className="text-sm text-slate-300 sm:text-base">
                 Share where you are today and where you’d like to be. We’ll come prepared
-                with practical ideas tailored to your business—not a generic sales pitch.
+                with practical ideas tailored to your business, not a generic sales pitch.
               </p>
             </div>
             <div className="flex w-full flex-col items-start gap-3 sm:w-auto sm:flex-row sm:items-center sm:gap-4">
